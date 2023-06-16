@@ -1,3 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using SistemaDeBiblioteca;
 
-Console.WriteLine("Hello, World!");
+class Program
+{
+    public static void Main(string[] args)
+    {
+        GerenciadorDeBiblioteca.Interface();
+    }
+}
